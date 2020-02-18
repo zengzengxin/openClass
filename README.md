@@ -1,38 +1,35 @@
 # Bilibili狂神说Java公开课系列
 
-#### 介绍
-bilibili 狂神说Java 公开课直播的代码和资料！
-地址：https://space.bilibili.com/95256449
+**拒绝白嫖，记得收藏，三连**
 
-#### 软件架构
-软件架构说明
+QQ：24736743
 
+bilibili：狂神说 Java
 
-#### 安装教程
+视频地址：https://space.bilibili.com/95256449
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+**更新日志：**
 
-#### 使用说明
+- 2.16 、2.17、2.18   更新  JUC并发编程系列
+  - 什么是JUC
+  - 线程和进程
+  - Lock锁（重点）
+  - 生产者和消费者问题
+  - 8锁现象
+  - 集合类不安全
+  - Callable 
+  - 常用的辅助类(必会)
+  - 读写锁
+  - 阻塞队列
+  - 线程池(重点)
+  - 四大函数式接口（必需掌握）
+  - Stream流式计算
+  - ForkJoin
+  - 异步回调
+  - JMM
+  - Volatile
+  - 彻底玩转单例模式
+  - 深入理解CAS
+  - 原子引用
+  - 各种锁的理解：公平锁、非公平锁、可重入锁、自旋锁、死锁
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 码云特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
