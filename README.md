@@ -11,8 +11,9 @@ bilibili：狂神说 Java
 **更新日志：**
 
 - 2.16  更新JUC并发编程系列 https://www.bilibili.com/video/av90007319
-- 3.19  更新MyBatisPlus https://www.bilibili.com/video/av97733494
-- 3.20  更新了Git教程 https://www.bilibili.com/video/av98007542
+- 3.19  更新 MyBatisPlus教程 https://www.bilibili.com/video/av97733494
+- 3.20  更新了 Git教程 https://www.bilibili.com/video/av98007542
+- 3.24  更新了 Linux 教程 
 
 ---
 
