@@ -1,11 +1,13 @@
-package com.kuang.forkjoin;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 /**
  * 同一个任务，别人效率高你几十倍！
@@ -45,9 +47,22 @@ public class Test {
     public static void test3(){
         long start = System.currentTimeMillis();
         // Stream并行流 ()  (]
+        List<Integer> list = new ArrayList<>();
+        list.add(100);
+        list.add(200);
+        list.add(300);
+        list.add(400);
+        list.add(500);
+        list.add(600);
+        list.add(700);
+
+        Integer reduce = list.stream().parallel().reduce(0, Integer::sum);
+        System.out.println(reduce);
         long sum = LongStream.rangeClosed(0L, 10_0000_0000L).parallel().reduce(0, Long::sum);
         long end = System.currentTimeMillis();
         System.out.println("sum="+"时间："+(end-start));
+
+
     }
 
 }
